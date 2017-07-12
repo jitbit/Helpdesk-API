@@ -4,7 +4,7 @@ This is an open-source collection of code-snippets for [Jitbit Helpdesk](https:/
 
 Feel free to contribute your samples.
 
-####About Jitbit Helpdesk
+#### About Jitbit Helpdesk
 
 Jitbit Helpdesk is a popular affordable support ticket system created by a small bootstrapped UK startup "Jitbit". The helpdesk app is available both as a "saas"-application and an "on-premise" solution that can be downloaded and installed on your local server.
 
