@@ -7,7 +7,7 @@ var makeBasicAuthHeader = function(username, password) {
 
 //Set's default authorization header for all jQuery AJAX requests
 $.ajaxSetup({
-	headers: { 'Authorization': makeBasicAuthHeader('admin', 'admin') }
+	headers: { 'Authorization': makeBasicAuthHeader('username', 'password') }
 });
 
 //Gets the list of unanswered tickets for the authenticated user
