@@ -1,8 +1,12 @@
 # Jitbit Helpdesk Ticketing System API
 
-This is an open-source collection of code-snippets for [Jitbit Helpdesk](https://www.jitbit.com/helpdesk/ "Helpdesk Ticketing System") that shows how you can use the helpdesk app's [API](https://www.jitbit.com/helpdesk/helpdesk-api/).
+This is an open-source collection of code-snippets for [Jitbit Helpdesk](https://www.jitbit.com/helpdesk/ "Helpdesk Ticketing System") that shows how you can use the helpdesk app's [API](https://www.jitbit.com/helpdesk/helpdesk-api/). Currently we have Helpdesk API examples for C#, PHP, Ruby, Python and JavaScript.
 
 Feel free to contribute your samples.
+
+#### CURL example
+
+`curl -X GET -u 'user:password' 'https://AccountName.jitbit.com/helpdesk/api/Tickets'`
 
 #### About Jitbit Helpdesk
 
