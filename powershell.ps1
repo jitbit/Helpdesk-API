@@ -11,7 +11,7 @@ function Get-Data([string]$username, [string]$password, [string]$url) {
 }
 
 // get tickets
-$data = Get-Data -username user -password pass -url "http://XXX.jitbit.com/helpdesk/api/tickets"
+$data = Get-Data -username user -password pass -url "https://XXX.jitbit.com/helpdesk/api/tickets"
 $dataToDict = $data | ConvertFrom-Json
 
 // Docs for Invoke-WebRequest are here: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-6
