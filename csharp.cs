@@ -14,7 +14,7 @@ namespace JitbitSample
 		static void Main(string[] args)
 		{
 			//connection settings
-			string url = "http://XXX.jitbit.com/helpdesk/api/tickets";
+			string url = "https://XXX.jitbit.com/helpdesk/api/tickets";
 			string username = "username";
 			string password = "password";
 
