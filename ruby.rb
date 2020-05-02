@@ -3,7 +3,7 @@ require 'net/http'
 require 'json'
 
 #creating the request URL
-uri = URI.parse("http://XXX.jitbit.com/helpdesk/api/tickets")
+uri = URI.parse("https://XXX.jitbit.com/helpdesk/api/tickets")
 
 http = Net::HTTP.new(uri.host, uri.port)
 request = Net::HTTP::Get.new(uri.request_uri)
