@@ -1,6 +1,6 @@
 <?php
 /* This is a basic example of using Jitbit Helpdesk API with PHP */
-$url = "http://XXX.jitbit.com/helpdesk/api/tickets";
+$url = "https://XXX.jitbit.com/helpdesk/api/tickets";
 $username = "username";
 $password = "password";
 
